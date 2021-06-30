@@ -15,15 +15,23 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css" />
 
-    <title>GOOGLE</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+
+    <title>Google</title>
+    <!-- <link rel="icon" type="image/ico" href="images/google_icon.png" /> -->
+    <link rel="icon" href="images/google.png" type="image/ico" />
   </head>
   <body>
-    <!-- Start Google Navbar  -->
+    <!-- Start Google Menu  -->
     <nav class="navbar navbar-expand navbar-light bg-transparent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto left-menu menu-height">
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
@@ -31,19 +39,66 @@
           <a class="nav-link" href="#">Store</a>
         </li>
       </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item">
+      <ul class="navbar-nav right-menu menu-height">
+        <li class="nav-item flex">
           <a class="nav-link" href="#">Gmail</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item flex">
           <a class="nav-link" href="#">Images</a>
         </li>
 
-        <span class="material-icons-outlined"> apps </span>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/apps.png" /></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"
+            ><button type="button" class="btn">Sign In</button></a
+          >
+        </li>
       </ul>
     </nav>
-    <!-- End Google Navbar  -->
+    <!-- End Google Menu -->
+    <!--Google Logo and Search Field-->
+    <div class="col-md-12 center">
+      <img class="Google-logo-2 mb-4" src="images/google_icon_2.png" />
 
+      <form action="https://google.com/search">
+        <div class="bar">
+          <input class="searchbar" type="text" name="q" class="box" />
+          <a href="#">
+            <img
+              class="voice"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png"
+              title="Search by Voice"
+          /></a>
+          <a href="#">
+            <img
+              class="search"
+              src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_Magnifying_Glass.svg"
+              title="Search by Voice"
+          /></a>
+        </div>
+        <br />
+        <div class="text-center">
+          <input
+            type="submit"
+            name="GoSearch"
+            value="Google Search"
+            class="button"
+          />
+          <input
+            type="submit"
+            name="GoLucky"
+            value="I am Feeling Lucky"
+            class="button"
+          />
+        </div>
+      </form>
+    </div>
+
+    <!--Footer-->
+    <!--End Footer-->
     <!-- jQuery and Bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

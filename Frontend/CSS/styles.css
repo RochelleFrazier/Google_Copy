@@ -1,6 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 body {
-  font-family: Roboto, arial, sans-serif;
+  font-family: Roboto, sans-serif !important;
   background-color: rgb(255, 255, 255);
   font-size: 14px;
   color: #222;
+}
+
+/* .nav-item {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  color: #222;
+} */
+.nav-link:hover {
+  text-decoration: underline;
+}
+.btn {
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: #1a73e8;
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  min-width: 80px;
+}
+
+.left-menu {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.menu-height {
+  height: 60px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 182px;
+}
+.Google-logo-2 {
+  height: 92px;
+  aspect-ratio: auto 272 / 92;
+  width: 272px;
+}
+.voice {
+  height: 20px;
+  position: relative;
+  top: 0px;
+  left: 41px;
+}
+.search {
+  height: 20px;
+  position: relative;
+  top: 0px;
+  right: 500px;
+}
+.bar {
+  margin: 0 auto;
+  width: 580px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+}
+.bar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+.searchbar {
+  height: 43px;
+  border: none;
+  border-radius: 30px;
+  width: 500px;
+  font-size: 14px;
+  outline: none;
+  padding-left: 50px;
+}
+
+.button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
