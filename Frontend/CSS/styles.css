@@ -116,6 +116,10 @@ body {
   user-select: none;
 }
 
+.button:hover {
+  box-shadow: 1px 1px 8px 1px #d3d3d3;
+}
+
 .footer {
   position: fixed;
   left: 0;
