@@ -39,7 +39,7 @@
           <a class="nav-link" href="#">Store</a>
         </li>
       </ul>
-      <ul class="navbar-nav right-menu menu-height">
+      <ul class="navbar-nav ml-auto right-menu menu-height">
         <li class="nav-item flex">
           <a class="nav-link" href="#">Gmail</a>
         </li>
@@ -60,44 +60,86 @@
     </nav>
     <!-- End Google Menu -->
     <!--Google Logo and Search Field-->
-    <div class="col-md-12 center">
-      <img class="Google-logo-2 mb-4" src="images/google_icon_2.png" />
+    <div class="row">
+      <div class="col-md-12 center">
+        <img class="Google-logo-2 mt-3 mb-4" src="images/google_icon_2.png" />
 
-      <form action="https://google.com/search">
-        <div class="bar">
-          <input class="searchbar" type="text" name="q" class="box" />
-          <a href="#">
-            <img
-              class="voice"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png"
-              title="Search by Voice"
-          /></a>
-          <a href="#">
-            <img
-              class="search"
-              src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_Magnifying_Glass.svg"
-              title="Search by Voice"
-          /></a>
-        </div>
-        <br />
-        <div class="text-center">
-          <input
-            type="submit"
-            name="GoSearch"
-            value="Google Search"
-            class="button"
-          />
-          <input
-            type="submit"
-            name="GoLucky"
-            value="I am Feeling Lucky"
-            class="button"
-          />
-        </div>
-      </form>
+        <form action="https://google.com/search">
+          <div class="bar">
+            <input
+              class="searchbar"
+              type="text"
+              name="q"
+              class="box"
+              autofocus="autofocus"
+            />
+            <a href="#">
+              <img
+                class="voice"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png"
+                title="Search by Voice"
+            /></a>
+            <a href="#">
+              <img
+                class="search"
+                src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_Magnifying_Glass.svg"
+                title="Search"
+            /></a>
+          </div>
+          <br />
+          <div class="text-center">
+            <input
+              type="submit"
+              name="GoSearch"
+              value="Google Search"
+              class="button"
+            />
+            <input
+              type="submit"
+              name="GoLucky"
+              value="I am Feeling Lucky"
+              class="button"
+            />
+          </div>
+        </form>
+      </div>
     </div>
 
     <!--Footer-->
+    <div class="row">
+      <div class="col-md-12 center">
+        <footer class="navbar navbar-expand navbar-light footer">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item flex">
+              <a class="nav-link" href="#">Advertising</a>
+            </li>
+            <li class="nav-item flex">
+              <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item flex">
+              <a class="nav-link" href="#">How Search works</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item flex text-center">
+              <a class="nav-link" href="#">Carbon Neutral Since 2007</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item flex">
+              <a class="nav-link" href="#">Privacy</a>
+            </li>
+            <li class="nav-item flex">
+              <a class="nav-link" href="#">Terms</a>
+            </li>
+
+            <li class="nav-item flex">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
     <!--End Footer-->
     <!-- jQuery and Bootstrap -->
     <script
